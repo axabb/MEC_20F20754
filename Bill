@@ -1,0 +1,28 @@
+import java.util.*;
+class Discount
+{
+    public static void main(String args[])
+    {
+        double quantity,price,Totalamount,discount;
+ 	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the price of the food item:");
+	price=sc.nextDouble();
+        System.out.println("Enter the no of quantity:"); 
+	quantity=sc.nextDouble();  
+	Totalamount=quantity*price;
+
+	if(amount>50)
+
+	{
+
+		discount=amount*0.05;
+
+		amount=amount-discount;
+
+	}
+	
+	System.out.println("The Final Amount is:"+amount);
+	
+
+   }
+}
